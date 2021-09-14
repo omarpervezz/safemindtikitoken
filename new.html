@@ -1,0 +1,14 @@
+// Create and draw the visualization.
+	new google.visualization.PieChart(document.getElementById('visualization')).
+	draw(data, {
+	  width: '800',
+	  height: '400',
+	  backgroundColor: 'transparent',
+	  title: "Token Distrubution",
+	  legend: {
+		position: 'labeled',
+		textStyle: {
+		  color: 'white'    // sets the text color
+		}
+	  }
+	});
